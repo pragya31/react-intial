@@ -1,0 +1,370 @@
+label{
+    font-weight: bold;
+}
+
+.layoutCustom{
+    .alignHeader{
+        .dropdownAlign{
+            position: absolute;
+            right: 0px;
+
+        }
+    }
+}   
+
+table{
+    white-space: nowrap;
+}
+
+// User management
+.alignHeader{
+    .c-body{
+        .card-body{
+            .table-hover{
+                tr{
+                    th{
+                        svg{
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// User Management actions
+.actionsMargin{
+    margin-left: 15px;
+}
+
+.addSubAdmin{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+
+.accessModuleInput{
+    margin-top: 15px;
+    label{
+        margin-left: 15px !important;
+    }
+    .colAlign{
+        margin-top: 50px;
+    }
+}
+
+.viewBookingBtn{
+    margin-top: 25px;
+}
+
+.deleteComp{
+    .modal-dialog{
+        margin-top: 180px;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+.idImg{
+    label{
+        display: block !important;
+    }
+    img{
+        width: 200px;
+        height: 170px;
+    }
+}
+
+.camelImg{
+    border-radius: 50%;  
+    width: 38%;
+}
+
+// .camelImg{
+//     border-radius: 1em;  
+//     width: 38%;
+// }
+
+// .imgInput{
+//     padding-bottom: 49px;
+//     padding-top: 49px;
+// }
+
+input{
+    margin-bottom: 10px;
+}
+
+select{
+    margin-bottom: 10px;
+}
+
+.actionsTrophy{
+    margin-left: 10px;
+}
+
+.addCamel{
+    margin-top: 25px;
+}
+
+.passwordButton{
+    pointer-events: none;
+    float: right;
+    margin: 16px;
+}
+
+.raceResult{
+    width: 100%;
+    
+}
+
+.raceRewards{
+    width: 100%;
+    th{
+        padding-right: 20px;
+    }
+}
+
+.channelCard{
+    padding: 20px;
+    img{
+        border-radius: 1em;
+    }
+    .channelLogo{
+        width: 48%;
+        border-radius: 1em;
+        margin-right: 90px;
+        margin-bottom: 20px;
+    }
+    .channelTitle{
+        text-align: center;
+        font-weight: bold;
+    }
+    span{
+        font-weight: bold;
+    }
+    .card-body{
+        .col{
+            padding-left: 0px;
+        }
+    }
+    p{
+        margin-bottom: 20px !important;
+    }
+    .editChannel{
+        position: absolute;
+        top: 20px;
+    }
+}
+
+.channelImg{
+    margin-bottom: 25px;
+    img{
+        border-radius: 1em;
+        width: 50%;
+    }
+    input{
+        padding-top: 20px;
+    }
+}
+
+.channelLogo{
+    border-radius: 1em;
+    
+    span{
+        font-weight: bold;
+        padding-right: 30%;
+    }
+    img{
+        width: 25%;
+        margin-top: 20px;
+    }
+    input{
+        padding-top: 20px;
+    }
+}
+
+.dashboardCardLive{
+    .edit{
+        margin-left: 30%;
+    }
+}
+
+.dashboardTable{
+    margin-top: 5%;
+}
+
+.dashboardCard{
+    .card{
+        height: 100%;
+    }
+}
+
+.dashboardCheckBox{
+    input{
+        margin-right: 30px;
+        margin-top: -10px;
+        margin-left: 20px !important;
+    }
+}
+
+.editLive{
+    label{
+        font-weight: bold;
+    }
+    .url{
+        text-decoration: line-through;
+    } 
+}
+
+.deletChannel{
+    position: absolute;
+    right: 20px;
+}
+
+.statusLive{
+    color: #fff;
+    background-color: #1B5E20;
+}
+
+.statusUpcoming{
+    color: #fff;
+    background-color: #1877f2;
+}
+
+.statusPast{
+    color: #fff;
+    background-color: rgba(234, 204, 63, 1);
+}
+
+.raceDropdown{
+    width: 20%;
+    display: flex;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 6px;
+    z-index: 1;
+}
+
+.dropdownTitle{
+    display: flex;
+    position: absolute;
+    margin-left: -95px;
+    margin-top: 13px;
+}
+
+.error{
+    border : 1px solid;
+    color: red;
+}
+
+.errorMessage{
+    color: red;
+    z-index: 999;
+}
+
+.errorMessage div{
+    margin-left: 35px;
+}
+
+.closeError {
+    left: -6px;
+    top: -15px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.closeError:after {
+    content: '';
+    height: 10px;
+    border-left: 2px solid red;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 28px;
+}
+
+.closeError:before {
+    content: '';
+    height: 10px;
+    border-left: 2px solid red;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 28px;
+}
+
+.subadminradio input{
+    width: 4%;
+    margin-right: 10px;
+}
+
+.subadminLanguage{
+    margin-left: 10px;
+}
+
+.notificationImg{
+    img{
+        border-radius: 50%;
+        width: 39%;
+    }
+
+}
+
+.notificationTableImg{
+    border-radius: 50%;
+}
+
+.cardSpace{
+    padding-top: 30px;
+}
+
+.dashboardCard a{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+}
+
+.astrick{
+    color: red;
+}
+
+.disable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.camelFormImg {
+    margin-bottom: 40px;
+    margin-top: 56px;
+}
+
+.accessModuleInput h4{
+    width: 500px;
+}
+
+.fontSpace{
+    margin-right: 5px;
+}
+
+.adminName{
+    margin-right: 15px;
+}
+
+.actionsPayment{
+    margin-left: 15px;
+}
+
+.actionsRewards{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.actionsRaceDelete{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.headerAlign{
+    position: absolute;
+    right: 300%;
+}
