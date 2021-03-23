@@ -11,6 +11,7 @@ const routes = [
     {path: '/dashboard', name: 'Dashboard', component: Dashboard },
     {path: '/sub_admin', name: 'Sub Admin', component: SubAdmin},
     
+    
 
 
 ]
