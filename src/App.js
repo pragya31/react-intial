@@ -8,16 +8,15 @@ const loading = (
   </div>
 )
 
-const Login = React.lazy(() => import('./components/ui/Login/login'));
 const Layout = React.lazy(()=>import('./components/Layout/layout'));
-// const AddSubAdmin = React.lazy(()=>import('./components/ui/SubAdmin/addSubAdminForm'));
+const AddSubAdmin = React.lazy(()=>import('./components/ui/SubAdmin/addSubAdminForm'));
 
 function App() {
   return (
     <HashRouter>
       <React.Suspense fallback={loading}>
         <Switch>
-          <Route exact path="/login" name="Login Page" render={props => <Login {...props}/>} />
+          {/* <Route exact path="/login" name="Login Page" render={props => <Login {...props}/>} /> */}
           <Route path="/" name="Home" render={props => <Layout {...props}/>} />
         </Switch>
       </React.Suspense>
